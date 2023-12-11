@@ -37,7 +37,7 @@ pip install diffusers gradio
 ```
 
 ```bash
-pip install torch
+pip install torch transformers
 ```
 
 ### 5. Initial Code Setup
