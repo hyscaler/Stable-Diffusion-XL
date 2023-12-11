@@ -71,6 +71,8 @@ python3 main.py
 This will provide you with a URL. When you open this URL, it will take you to the Gradio interface where you can input your prompts.
 
 ### [Will Insert Screenshot of Gradio Interface for Basic Setup Here]
+![Base Model Generation](https://content.hyscaler.com/wp-content/uploads/2023/12/base.png)
+![Base Model Generation](https://content.hyscaler.com/wp-content/uploads/2023/12/base1.png)
 
 ### 6. Generating Multiple Images
 For generating multiple images, modify the script as follows.
@@ -99,6 +101,8 @@ if __name__ == "__main__":
 ```
 
 ### [Will Insert Screenshot of Gradio Interface for Multiple Images Here]
+![Multiple Image Generation 2](https://content.hyscaler.com/wp-content/uploads/2023/12/base-multiple-img2.png)
+![Multiple Image Generation](https://content.hyscaler.com/wp-content/uploads/2023/12/base-multiple-img.png)
 
 ### 7. Using Base and Refiner Models
 For refined images, modify your script to include the base `stabilityai/stable-diffusion-xl-base-1.0` and refiner `stabilityai/stable-diffusion-xl-refiner-1.0` models. As we now using 2 models at a time so we need to use [DiffusionPipeline](https://huggingface.co/docs/diffusers/v0.24.0/en/api/pipelines/overview#diffusers.DiffusionPipeline). which support the bundling of multiple independently-trained models, schedulers, and processors into a single end-to-end class.
@@ -140,7 +144,9 @@ if __name__ == "__main__":
     demo.launch(show_api=False)
 ```
 
-### [Will Insert Screenshot of Gradio Interface for Refined Images Here]
+### Screenshots
+![Base and Refiner model Image](https://content.hyscaler.com/wp-content/uploads/2023/12/base-refiner.png)
+![Base and Refiner model Image 2](https://content.hyscaler.com/wp-content/uploads/2023/12/base-refiner1.png)
 
 ## Conclusion
 By following these steps, you can set up and use Stable Diffusion XL on your local machine. Whether you're a hobbyist or a professional, this tool offers an exciting way to explore AI-powered image generation.
