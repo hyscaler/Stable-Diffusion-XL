@@ -36,6 +36,10 @@ Install Diffusers and Gradio using Pip. [Diffusers](https://huggingface.co/docs/
 pip install diffusers gradio
 ```
 
+```bash
+pip install torch
+```
+
 ### 5. Initial Code Setup
 Write the following code in a file named `main.py`. This script sets up a basic Gradio interface to interact with the Stable Diffusion XL model. In this we are using Stable Diffusion XL Base model `stabilityai/stable-diffusion-xl-base-1.0` which is provided by Stability AI. Source code is available at https://github.com/Stability-AI/generative-models . And to using the model we are using [StableDiffusionXLPipeline](https://huggingface.co/docs/diffusers/api/pipelines/stable_diffusion/stable_diffusion_xl#diffusers) from diffusers for text-to-image generation.
 
