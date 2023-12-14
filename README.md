@@ -33,11 +33,7 @@ To access pre-trained models, including Stable Diffusion XL, sign up for a [Hugg
 Install Diffusers and Gradio using Pip. [Diffusers](https://huggingface.co/docs/diffusers/index) is a Hugging Face library offering pre-trained diffusion models for various tasks. [Gradio](https://www.gradio.app/) is an open-source library for creating user-friendly web interfaces for machine learning models.
 
 ```bash
-pip install diffusers gradio
-```
-
-```bash
-pip install torch transformers accelerate
+pip install diffusers gradio torch transformers accelerate
 ```
 
 ### 5. Initial Code Setup
